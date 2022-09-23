@@ -12,3 +12,15 @@ exposures:
     airops:
       type: sync
       sync_id: 3
+- name: my_first_dbt_model
+  type: application
+  url: http://localhost:3000/syncs/7
+  owner:
+    name: Nicolas
+    email: nicolas@airops.com
+  depends_on:
+  - ref('my_first_dbt_model')
+  meta:
+    airops:
+      type: sync
+      sync_id: 7
