@@ -7,7 +7,7 @@ exposures:
     name: Nicolas
     email: nicolas@airops.com
   depends_on:
-  - ref(my_second_dbt_model)
+  - ref('my_second_dbt_model')
   meta:
     airops:
       type: sync
