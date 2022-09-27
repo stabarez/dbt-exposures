@@ -4,7 +4,7 @@ exposures:
   type: application
   url: http://localhost:3000/syncs/2
   owner:
-    name: Nicolas
+    name: Nicolas Castellanos
     email: nicolas@airops.com
   depends_on:
   - ref('karts_with_chassis_praga')
