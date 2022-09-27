@@ -1,6 +1,6 @@
 version: 2
 exposures:
-- name: All my praga karts
+- name: All my praga karto
   type: application
   url: http://localhost:3000/syncs/2
   owner:
