@@ -5,6 +5,7 @@ models:
       description: "Self descriptive"
       columns:
           - name: chassis
+            description: "Chassis brand"
           - name: engine
 
     - name: uno
