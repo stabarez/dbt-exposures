@@ -1,13 +1,2 @@
 version: 2
-exposures:
-- name: contacts
-  type: application
-  url: http://localhost:3000/syncs/1
-  owner:
-    name: Nicolas Castellanos
-    email: nicolas@airops.com
-  depends_on: []
-  meta:
-    airops:
-      type: sync
-      sync_id: 1
+exposures: []
