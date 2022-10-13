@@ -1,6 +1,0 @@
-name: Categories
-source: redshift-k5w0o
-type: table
-tableName: public.category
-isSchema: false
-primaryKey: catid
