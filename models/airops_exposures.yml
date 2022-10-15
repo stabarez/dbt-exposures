@@ -1,0 +1,13 @@
+version: 2
+exposures:
+- name: my_second_dbt_model
+  type: application
+  url: http://localhost:3000/syncs/2
+  owner:
+    name: Nicolas Castellanos
+    email: nicolas@airops.com
+  depends_on: []
+  meta:
+    airops:
+      type: sync
+      sync_id: 2
