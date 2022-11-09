@@ -7,6 +7,13 @@ models:
           - name: chassis
             description: "Chassis brand"
           - name: engine
+          
+    - name: karts
+      description: "Self descriptive"
+      columns:
+          - name: chassis
+            description: "Chassis brand"
+          - name: engine
 
     - name: uno
       description: "Just a dummy table"
