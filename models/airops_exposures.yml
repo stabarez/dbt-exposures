@@ -1,12 +1,13 @@
 version: 2
 exposures:
-- name: my_second_dbt_model
+- name: karts_with_chassis_praga
   type: application
   url: http://localhost:3000/syncs/2
   owner:
-    name: Nicolas Castellanos
-    email: nicolas@airops.com
-  depends_on: []
+    name: Schubert Tabarez
+    email: schubert@airops.com
+  depends_on:
+  - ref('karts_with_chassis_praga')
   meta:
     airops:
       type: sync
